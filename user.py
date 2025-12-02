@@ -18,6 +18,6 @@ class GithubUser:
                 "Following" : self.following,
                 "Public Repos" : self.public_repos,
                 "Bio" : self.bio,
-                "Avatar" : self.Avatar,
+                "Avatar" : self.avatar,
                 "Created_At" : self.created_at
             }
