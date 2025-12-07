@@ -1,3 +1,5 @@
+# perfoms calculation (stars repos and stuff)
+
 from collections import Counter
 
 class Analyzer:

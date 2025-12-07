@@ -1,3 +1,5 @@
+# uses https requests to fetch user info (repos and personal)
+
 import requests
 
 class GithubAPI:

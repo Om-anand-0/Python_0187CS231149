@@ -1,3 +1,6 @@
+# class to initializes user info and convert them into objects
+# made a function to return data more clearly
+
 class GithubUser:
     def __init__(self,data):
         self.username = data.get("login")

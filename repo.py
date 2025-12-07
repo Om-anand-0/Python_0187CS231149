@@ -1,3 +1,6 @@
+# initializes repo info to repo objects and made a func to return user summary
+
+
 class Repo:
     def __init__(self, data):
         self.name = data.get("name")

@@ -1,7 +1,11 @@
+# importing files, makes it more modular
+
 from github_api import GithubAPI
 from user import GithubUser
 from repo import Repo
 from analyzer import Analyzer
+
+# entry point prints info
 
 def main():
     username = input("Enter GitHub username: ")
