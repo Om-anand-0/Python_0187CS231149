@@ -2,7 +2,9 @@
 
 
 class Repo:
-    def __init__(self, data):
+    def __init__(self, data:dict):
+        self.raw_json = data
+        
         self.name = data.get("name")
         self.language = data.get("language")
         self.stars = data.get("stargazers_count")
@@ -18,3 +20,5 @@ class Repo:
             "size_kb": self.size
         }
 
+    def show_raw_json(self):
+        return self.raw_json

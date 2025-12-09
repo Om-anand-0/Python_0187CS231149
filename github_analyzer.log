@@ -1,0 +1,38 @@
+2025-12-08 07:04:15,822 - calling API Function: get_user
+2025-12-08 07:04:16,904 - get_user worked
+2025-12-08 07:04:16,905 - calling API Function: get_repos
+2025-12-08 07:04:17,934 - get_repos worked
+2025-12-08 07:05:16,093 - calling API Function: get_user
+2025-12-08 07:05:16,739 - get_user worked
+2025-12-08 07:05:16,740 - calling API Function: get_repos
+2025-12-08 07:05:17,542 - get_repos worked
+2025-12-08 07:07:07,705 - calling API Function: get_user
+2025-12-08 07:07:08,364 - get_user worked
+2025-12-08 07:07:08,365 - calling API Function: get_repos
+2025-12-08 07:07:09,537 - get_repos worked
+2025-12-08 07:09:33,983 - calling API Function: get_user
+2025-12-08 07:09:34,599 - get_user failed, Error is 404 Client Error: Not Found for url: https://api.github.com/users/ionlaisnd
+2025-12-08 07:09:44,173 - calling API Function: get_user
+2025-12-08 07:09:44,730 - get_user worked
+2025-12-08 07:09:44,730 - calling API Function: get_repos
+2025-12-08 07:09:45,656 - get_repos worked
+2025-12-08 07:12:21,992 - calling API Function: get_user
+2025-12-08 07:12:24,602 - get_user worked
+2025-12-08 07:12:24,602 - calling API Function: get_repos
+2025-12-08 07:12:26,185 - get_repos worked
+2025-12-08 07:15:39,600 - calling API Function: get_user
+2025-12-08 07:15:40,359 - get_user worked
+2025-12-08 07:15:40,360 - calling API Function: get_repos
+2025-12-08 07:15:41,332 - get_repos worked
+2025-12-08 07:16:59,270 - calling API Function: get_user
+2025-12-08 07:17:00,022 - get_user worked
+2025-12-08 07:17:00,023 - calling API Function: get_repos
+2025-12-08 07:17:01,104 - get_repos worked
+2025-12-08 07:17:25,142 - calling API Function: get_user
+2025-12-08 07:17:25,738 - get_user worked
+2025-12-08 07:17:25,738 - calling API Function: get_repos
+2025-12-08 07:17:26,582 - get_repos worked
+2025-12-08 07:26:25,246 - calling API Function: get_user
+2025-12-08 07:26:27,688 - get_user worked
+2025-12-08 07:26:27,688 - calling API Function: get_repos
+2025-12-08 07:26:31,046 - get_repos worked

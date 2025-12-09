@@ -2,14 +2,14 @@
 # made a function to return data more clearly
 
 class GithubUser:
-    def __init__(self,data):
+    def __init__(self,data:dict):
+        self.raw_json = data
         self.username = data.get("login")
         self.name = data.get("name")
         self.followers = data.get("followers")
         self.following = data.get("following")
         self.public_repos = data.get("public_repos")
         self.bio = data.get("bio")
-        self.avatar = data.get("avatar_url")
         self.created_at = data.get("created_at")
 
 
@@ -21,6 +21,8 @@ class GithubUser:
                 "Following" : self.following,
                 "Public Repos" : self.public_repos,
                 "Bio" : self.bio,
-                "Avatar" : self.avatar,
                 "Created_At" : self.created_at
             }
+        
+    def show_json_keys(self):
+        return list(self.raw_json.keys())

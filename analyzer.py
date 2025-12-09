@@ -14,5 +14,10 @@ class Analyzer:
         return sum(repo.stars for repo in self.repos)
 
     def top_repo(self):
-        return max(self.repos, key=lambda r: r.stars, default=None)
+        if not self.repos:
+            return None
+        return max(self.repos, key=lambda r: r.stars, default=None or 0)
+    
+    def repo_lang_raw(self):
+        return [repo.raw_json.get("language") for repo in self.repos]
 
