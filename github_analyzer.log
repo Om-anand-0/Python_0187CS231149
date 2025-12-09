@@ -36,3 +36,7 @@
 2025-12-08 07:26:27,688 - get_user worked
 2025-12-08 07:26:27,688 - calling API Function: get_repos
 2025-12-08 07:26:31,046 - get_repos worked
+2025-12-09 08:52:36,380 - calling API Function: get_user
+2025-12-09 08:52:36,856 - get_user worked
+2025-12-09 08:52:36,856 - calling API Function: get_repos
+2025-12-09 08:52:37,961 - get_repos worked
